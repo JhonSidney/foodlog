@@ -1,24 +1,15 @@
-# README
+<h1 align="center">
+    <img alt="FoodLog Clone" src="frontend/src/assets/logo.svg" width="250px" />
+</h1>
+<h4 align="center">
+  🚀 A beginner food log project to start learning the Ruby on Rails framework
+</h4>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## :rocket: Technologies
 
-Things you may want to cover:
+This project was developed with the following technologies:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- [Node.js](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com/)
+- [Ruby](https://www.ruby-lang.org/pt/)
+- [Rails](https://guides.rubyonrails.org/)
