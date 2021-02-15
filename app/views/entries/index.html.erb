@@ -1,13 +1,13 @@
   <% content_for :title do %>
-    FoodLog &ndash; <%= DateTime.now %>
+    FoodLog &ndash; <%= DateTime.now.to_s(:nice_date) %>
   <% end %>
 
    <div class="columns mt-6  is-centered">
      <% @entries.each do |entry| %>
-       <div class="colum is-one-quarter">
+       <div class="colum is-one-quarter" style=" margin: 10px">
          <div class="card">
            <header class=" card-header">
-             <p class="card-header-title"><%= entry.meal_type %> </p>
+             <p class="card-header-title" style="color: white;background-color: dodgerblue"><%= entry.meal_type.upcase %> </p>
            </header>
            <div class="card-content">
              <div class="content">
@@ -20,9 +20,9 @@
              </div>
            </div>
            <div class="card-footer">
-               <%= link_to 'Show ', entry, class: "card-footer-item" %>
-               <%= link_to ' Edit ', edit_entry_path(entry), class: "card-footer-item" %>
-               <%= link_to ' Destroy', entry, method: :delete, data: { confirm: 'Are you sure?' }, class: "card-footer-item" %>
+               <%= link_to 'Show', entry, class: "button is-primary is-light  card-footer-item" %>
+               <%= link_to 'Edit', edit_entry_path(entry), class: "button is-info is-light card-footer-item" %>
+               <%= link_to 'Destroy', entry, method: :delete, data: { confirm: 'Are you sure?' }, class: "button is-danger is-light ,card-footer-item" %>
            </div>
          </div>
        </div>
