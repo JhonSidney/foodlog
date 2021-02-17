@@ -13,3 +13,9 @@ This project was developed with the following technologies:
 - [Yarn](https://yarnpkg.com/)
 - [Ruby](https://www.ruby-lang.org/pt/)
 - [Rails](https://guides.rubyonrails.org/)
+
+## :rocket: image
+
+<p align="center">
+    <img alt="FoodLog Clone" src="images/simulation.png" width="600px" height="445px" />
+</p>
