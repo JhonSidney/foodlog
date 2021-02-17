@@ -17,5 +17,5 @@ This project was developed with the following technologies:
 ## :rocket: image
 
 <p align="center">
-    <img alt="FoodLog Clone" src="images/simulation.png" width="600px" height="445px" />
+    <img alt="FoodLog Clone" src="images/simulations.png"/>
 </p>
