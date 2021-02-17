@@ -5,7 +5,7 @@
    <div class="columns mt-6  is-centered">
      <% @entries.each do |entry| %>
        <div class="colum is-one-quarter" style=" margin: 10px">
-         <div class="card">
+         <div class="card notification is-link">
            <header class=" card-header">
              <p class="card-header-title" style="color: white;background-color: dodgerblue"><%= entry.meal_type.upcase %> </p>
            </header>
@@ -19,10 +19,10 @@
                <i class="bi bi-alarm-fill"></i>
              </div>
            </div>
-           <div class="card-footer">
-               <%= link_to 'Show', entry, class: "button is-primary is-light  card-footer-item" %>
-               <%= link_to 'Edit', edit_entry_path(entry), class: "button is-info is-light card-footer-item" %>
-               <%= link_to 'Destroy', entry, method: :delete, data: { confirm: 'Are you sure?' }, class: "button is-danger is-light ,card-footer-item" %>
+           <div class="card-footer are-small ">
+               <%= link_to 'Show', entry, class: "button is-primary is-hovered  card-footer-item" %>
+               <%= link_to 'Edit', edit_entry_path(entry), class: "button is-link is-hovered card-footer-item" %>
+               <%= link_to 'Destroy', entry, method: :delete, data: { confirm: 'Are you sure?' }, class: "button is-danger is-hovered ,card-footer-item" %>
            </div>
          </div>
        </div>
